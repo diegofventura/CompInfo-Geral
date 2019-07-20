@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detalhe Produto - Housefy</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/service/ProdutoService.js"></script>
+    <script src="js/service/CarrinhoService.js"></script>
+    <script src="js/controller/ProdutoController.js"></script>
+</head>
+
+<body onload="carregarProduto()" style="opacity: 0">
+    <header>
+        <nav class="navbar">
+            <div>
+                <img src="img/back.svg" alt="Ícone do menu" onclick="voltar()">
+                <h1 id="navbarTitle">Detalhe Produto</h1>
+            </div>
+        </nav>
+    </header>
+
+    <section class="detalhe-produto">
+
+        <img id="imagem">
+        <div class="dados">
+            <h1 id="nome"></h1>
+            <div class="descricao">
+                <p class="produto-descricao" id="descricao"></p>
+                <p class="produto-preco" id="preco"></p>
+            </div>
+            <div class="form">
+                <input type="number" placeholder="Quantidade" id="quantidade">
+                <button type="button" onclick="adicionarCarrinho()">Adicionar ao carrinho</button>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

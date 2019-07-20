@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Housefy</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/service/ProdutoService.js"></script>
+    <script src="js/controller/HomeController.js"></script>
+</head>
+
+<body onload="listarProdutos()" style="opacity: 0">
+    <header>
+        <nav class="navbar">
+            <div>
+                <img src="img/menu.svg" alt="Ícone do menu" onclick="openDrawer()">
+                <h1>Móveis</h1>
+            </div>
+            <img src="img/search.svg" alt="Ícone de busca">
+        </nav>
+    </header>
+
+    <section id="produtos"></section>
+
+    <div class="drawer">
+        <div class="drawer-menu">
+            <div class="drawer-menu-close">
+                <img src="img/close.svg" alt="Ícone de fechar" onclick="closeDrawer()">
+            </div>
+            <div class="drawer-title">
+                Housefy
+            </div>
+            <div class="menu-itens">
+                <div class="menu-item">
+                    <a href="home.html">
+                        <div>
+                            <img src="img/home.svg" alt="Ícone home">
+                            Home
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="carrinho.html">
+                        <div>
+                            <img src="img/cart.svg" alt="Ícone carrinho">
+                            Carrinho
+                        </div>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="novo-produto.html">
+                        <div>
+                            <img src="img/cart.svg" alt="Ícone carrinho">
+                            Novo Carrinho
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="drawer-close" onclick="closeDrawer()"></div>
+    </div>
+    <footer class="footer"></footer>
+</body>
+
+</html>
