@@ -1,22 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Berkshire Swash', cursive;
+  
 }
 body {
-    background-color: rgb(232, 232, 232);
+    background-color:#2c171c8a;
     padding-bottom: 100%;
 }
 
 /* NAVBAR */
 .navbar {
-    background-color: blue;
+    background: linear-gradient(to top right,#FF5C5C,#FF5C5C);
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
 }
 .navbar img {
-    height: 25px;
+    height: 35px;
 }
 .navbar h1 {
     color: white;
@@ -74,7 +75,7 @@ body {
 }
 .detalhe-produto .produto-preco {
     font-size: 18pt;
-    color: blue;
+    color:#E9CCFF;
 }
 
 /* CARRINHO */
@@ -113,9 +114,9 @@ body {
     color: white;
 }
 .drawer .drawer-menu {
-    background-color: blue;
-    height: 100%;
-    width: 80%;
+    background-color: #380018;
+    height: 65%;
+    width: 60%;
     animation: abrir-menu 1s;
 }
 .drawer .drawer-close {
@@ -152,7 +153,7 @@ body {
 .footer{
     height: 70px;
     width: 100%;
-    background-color: blue;
+    background: linear-gradient(to top right,#FF5C5C,#FF5C5C);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -198,5 +199,45 @@ body {
         transform: scale(1);
         opacity: 1;
     }
+  
+
+    }
+    .novo-produto {
+        margin-left: 5%;
+    }
+    .novo-produto div input{
+        background-color: #ebe2e2;
+            width: 80%;
+
+            margin: 25px 10px;
+            box-sizing: content-box;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+
+       
+    }
+    .novo-produto div button{
+        
+        width: 80%;
+        margin: 5px 0px;
+        box-sizing: content-box;
+        margin-left: 5%;
+        padding: 10px;
+        border: none;
+        border-radius: 25px;
+    
+                
+    }
+    .img_menu img{
+            margin-top: 50px;
+            padding: 10%;
+            height: 400px;
+        
+
+    }
+    
+    
+        
 
 }
