@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap');
 
 * {
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Fontaine', normal;
   
 }
 body {
@@ -11,7 +11,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-    background: linear-gradient(to top right,#FF5C5C,#FF5C5C);
+    background: linear-gradient(to top right,rgb(35, 0, 161),rgb(0, 0, 0));
     display: flex;
     justify-content: space-between;
     padding: 20px 30px;
@@ -153,7 +153,7 @@ body {
 .footer{
     height: 70px;
     width: 100%;
-    background: linear-gradient(to top right,#FF5C5C,#FF5C5C);
+    background: linear-gradient(to top right,rgb(0, 0, 0),rgb(35, 0, 161));
     position: fixed;
     bottom: 0;
     left: 0;
