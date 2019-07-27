@@ -60,15 +60,15 @@ body {
     width: 100%;
 }
 .detalhe-produto h1 {
-    font-size: 25pt;
+    font-size: pt;
 }
 .detalhe-produto .descricao {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: px;
 }
 .detalhe-produto .dados {
-    padding: 20px;
+    padding: 30px;
 }
 .detalhe-produto .produto-descricao {
     font-size: 20pt;
@@ -132,7 +132,7 @@ body {
 }
 .drawer .drawer-title {
     padding: 20px;
-    font-size: 20pt;
+    font-size: 30px;
 }
 
 .drawer-menu .menu-itens {
